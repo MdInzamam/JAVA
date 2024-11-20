@@ -1,0 +1,16 @@
+package method_Shadowing;
+
+public class driver_class {
+
+	public static void main(String[] args) {
+		vehicle v1 = new vehicle();
+		v1.run();
+		car c = new car();
+		c.run();
+
+		vehicle v2 = new car();
+		v2.run();
+
+	}
+
+}
